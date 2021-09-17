@@ -21,8 +21,8 @@ https://imgur.com/C4Ej7hD
 eg: python json2png.py jsons masks
 如果有錯誤的話，會在終端機上印出哪個資料夾的哪個標註json檔案有誤
 
-參數1: 放所有標注資料的root directory
-參數2: 指定一個放置mask的地方
+- 參數1: 放所有標注資料的root directory
+- 參數2: 指定一個放置mask的地方
 -h 選項可以看說明
 
 
@@ -30,6 +30,6 @@ eg: python json2png.py jsons masks
   python applymask.py {path/to/mask_folder} {path/to/output_video_folder}
 ```
 eg:  python applymask.py masks output_video_folder
-參數1: 上述程式指定放mask的地方
-參數2: 輸出 video的目標資料夾
+- 參數1: 上述程式指定放mask的地方
+- 參數2: 輸出 video的目標資料夾
 -h 選項可以看說明
